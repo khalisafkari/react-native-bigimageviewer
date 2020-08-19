@@ -23,9 +23,10 @@ allprojects {
 Note: please put this download url at the first of your repositories part, otherwise, gradle may search in wrong place.
 
 ## Demo
-<img width="33.33%" src="https://i.ibb.co/bd8zMpq/1.png" alt="1" border="0">
-<img width="33.33%" src="https://i.ibb.co/Sv8Qkbv/2.png" alt="2" border="0">
-<img width="33.33%" src="https://i.ibb.co/mJJgYB2/3.png" alt="3" border="0">
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="https://i.ibb.co/bd8zMpq/1.png">  |  <img width="1604" alt="2" src="https://i.ibb.co/Sv8Qkbv/2.png">|<img width="1604" alt="3" src="https://i.ibb.co/mJJgYB2/3.png">|
 
 ## Usage
 
