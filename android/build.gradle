@@ -33,9 +33,9 @@ android {
     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
     versionCode 1
     versionName "1.0"
-    
+
   }
-  
+
   buildTypes {
     release {
       minifyEnabled false
@@ -119,6 +119,9 @@ repositories {
                     "Ensure you have you installed React Native as a dependency in your project and try again."
     )
   }
+  maven {
+    url  "http://dl.bintray.com/piasy/maven"
+  }
 }
 
 def kotlin_version = getExtOrDefault('kotlinVersion')
@@ -127,4 +130,7 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation 'com.github.piasy:BigImageViewer:1.6.6'
+  implementation 'com.github.piasy:GlideImageLoader:1.6.6'
+  implementation 'com.github.piasy:ProgressPieIndicator:1.6.6'
 }

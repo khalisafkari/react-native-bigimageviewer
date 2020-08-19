@@ -1,25 +1,28 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import Bigimageviewer from 'react-native-bigimageviewer';
+import { StyleSheet, View } from 'react-native';
+import BannerView from 'react-native-bigimageviewer';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    Bigimageviewer.multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <BannerView
+        style={styles.image}
+        source={
+          'https://4youscan.xyz/wp-content/uploads/2020/08/005-2537-900x1280.jpg'
+        }
+        resizeMode={'fitCenter'}
+        loading={true}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  image: {
+    height: '100%',
+    width: '100%',
+  },
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
