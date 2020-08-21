@@ -32,7 +32,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "image",
+    "react-native-bigimageviewer",
+    "bigimageviewer"
   ],
   "repository": "https://github.com/khalisafkari/react-native-bigimageviewer",
   "author": "khalis afkari <khalis411@gmail.com> (https://github.com/khalisafkari)",
