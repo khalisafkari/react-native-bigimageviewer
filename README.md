@@ -11,6 +11,8 @@ yarn add react-native-bigimageviewer
 ```
 
 ```sh
+// android/build.gradle
+
 allprojects {
     repositories {
        maven {
