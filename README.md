@@ -24,7 +24,7 @@ allprojects {
 ```
 Note: please put this download url at the first of your repositories part, otherwise, gradle may search in wrong place.
 
-## example
+## demo
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
